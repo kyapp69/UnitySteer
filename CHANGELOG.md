@@ -3,6 +3,7 @@
 ## WIP
 
 * SteerForPathSimplified2D can now resolve longer loops instead of getting stuck
+* Upgrade project to Unity 5.5
 
 ## v3.1
 
