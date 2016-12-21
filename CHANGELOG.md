@@ -4,6 +4,7 @@
 
 * SteerForPathSimplified2D can now resolve longer loops instead of getting stuck
 * Upgrade project to Unity 5.5
+* Added SteerForDirectionFluctuation2D which adds a noise factor to direction
 
 ## v3.1
 
