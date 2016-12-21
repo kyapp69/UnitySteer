@@ -8,6 +8,7 @@
 * SteerForCohesion2D now has min/max contribution properties; this can assist
   flocking by preventing the cohesion factor from becoming too strong/weak with 
   distance
+* Added OnNeighborsChanged event to SteerForNeighbourGroup2D
 
 ## v3.1
 
