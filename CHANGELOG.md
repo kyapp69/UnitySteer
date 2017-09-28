@@ -1,5 +1,15 @@
 # UnitySteer changelog
 
+## WIP
+
+* SteerForPathSimplified2D can now resolve longer loops instead of getting stuck
+* Upgrade project to Unity 5.5
+* Added SteerForDirectionFluctuation2D which adds a noise factor to direction
+* SteerForCohesion2D now has min/max contribution properties; this can assist
+  flocking by preventing the cohesion factor from becoming too strong/weak with 
+  distance
+* Added OnNeighborsChanged event to SteerForNeighbourGroup2D
+
 ## v3.1
 
 * 2D support thanks to @GandaG and @pjohalloran. 
