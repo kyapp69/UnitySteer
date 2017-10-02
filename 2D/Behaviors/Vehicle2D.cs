@@ -315,6 +315,12 @@ namespace UnitySteer2D.Behaviors
             }
         }
 
+        // Forward direction enum; can be set from code unlike Forward
+        public SpriteForwardDirection SpriteForward {
+            get { return _forward; }
+            set { _forward = value; }
+        }
+
         #endregion
 
         #region Unity methods
